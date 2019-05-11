@@ -28,6 +28,7 @@ import java.util.Date;
 public class Company implements Serializable {
 
     private static final long serialVersionUID = 8455426381164374052L;
+
     /**
      * 主键
      */
