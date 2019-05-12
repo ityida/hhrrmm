@@ -6,6 +6,7 @@ import java.net.NetworkInterface;
 
 
 /**
+ * @author
  * 雪花算法代码实现
  */
 public class IdWorker {
