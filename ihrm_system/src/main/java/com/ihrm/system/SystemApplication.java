@@ -34,7 +34,11 @@ public class SystemApplication {
         return new JwtUtils();
     }
 
-    //解决no session
+    /**
+     * 解决no session
+     *
+     * @return
+     */
     @Bean
     public OpenEntityManagerInViewFilter openEntityManagerInViewFilter() {
         return new OpenEntityManagerInViewFilter();
